@@ -1,0 +1,442 @@
+*{
+    margin: auto;
+    padding: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+body{
+    width: 100%;
+    background: #f9f9f9;
+}
+h1{
+    font-size: 36px;
+    padding-left: 8px;
+    color: #555;
+    font-weight: 400;
+}
+h2{
+    color:aqua;
+    font-size: 16px;
+}
+/*
+#main a{
+    font-size 16px;
+    padding: 8px 32px;
+    background: #3b5998;
+    color: #f9f9f9;
+    border: 2px solid #3b5998;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-decoration: none;
+    margin-top: 16px;
+    
+}
+*/
+img{
+    float: left;
+}
+#main{
+	width: 608px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 16px;
+}
+/*
+#main a:hover{
+    background: #f9f9f9;
+    color: #3b5998;
+}
+*/
+p{
+    margin-bottom: 16px;
+}
+.content{
+    border-bottom: 1px solid #eee;
+    padding: 16px 0;
+    overflow: hidden;
+    
+}
+.top-title{
+    font-size: 36px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color: #555;
+    font-weight: 400;
+    border-left: 6px solid #e63c35;   
+}
+.right-box{
+    float: right;
+    width: 288px;
+    margin-left: 18px;
+    
+}
+
+.left-box{
+    float: left;
+    width: 288px;
+    margin-right: 18px;
+}
+
+.content:last-child{
+    border-bottom: 0;
+}
+.top-left-title{
+	font-size: 36px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color: #555;
+    font-weight: 400;
+	text-align: end;
+	border-right: 6px solid #e63c35;
+}
+#header{
+	width: 100%;
+	overflow: hidden;
+	background: #e63c35;
+	padding: 6px 0px;
+	position: fixed;
+	z-index: 3;
+}
+#header h1{
+	float: left;
+	color: #f9f9f9;
+	margin-right: 48px;
+}
+nav{
+	overflow: hidden;
+}
+nav li{
+	list-style-type: none;
+	float: left;
+	margin-top: 2px;
+}
+nav h1{
+	font-size: 32px;
+	disply: block;
+	text-decoration: none;
+	color: #f9f9f9;
+	text-shadow: 1px 1px 1px #000;
+}
+nav a{
+	font-size: 16px;
+	display: block;
+	text-decoration: none;
+	color: #f9f9f9;
+	margin: 14px 16px 0px;
+	transition: 0.3s;
+	
+}
+nav a:hover{
+	border-bottom: 3px solid #f9f9f9;
+	border-bottom-style: dotted;
+}
+#header .container{
+    width: 608px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #e63c35;
+    padding: 16px;
+    
+    
+}
+#sidebar{
+	float: left;
+	width: 280px;
+	margin: 0px 12px;
+	background: #fff;
+	padding: 8px;
+}
+#sidebar img{
+	margin-bottom: 16px;
+}
+#sidebar h3{
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+#sidebar p{
+	font-size: 16px;
+}
+#main {
+    width: 608px;
+    overflow: hidden;
+    float: left;
+    background: #fff;
+    padding: 16px;
+}
+#sidebar {
+    width: 280px;
+    padding: 0px 12px;
+    margin-left: 30px;
+    float: left;
+    background: #fff;
+}
+.container{
+	margin: auto;
+	width: 1000px;
+	overflow: hidden;
+	padding: 16px;
+}
+.main-visual{
+	background: #FFF url(hero.jpg) 0 0 no-repeat;
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+	margin-bottom: 32px;
+	padding-top: 60px;
+	
+}
+p.new{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: #e63c35;
+	color: white;
+	text-align: center;
+	line-height: 65px;
+	font-size: 25px;
+	position: absolute;
+	right: 16px;
+	top: 16px;
+}
+#contents1{
+	position: relative;
+}
+p.last{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: #e63c35;
+	color: white;
+	text-align: center;
+	line-height: 65px;
+	font-size: 25px;
+	position: absolute;
+	left: 16px;
+	top: 16px;
+}
+#contents2{
+	position: relative;
+}
+h4{
+	text-align: center;
+	color: white;
+	margin-top: 200px;
+	font-size: 32px;
+}
+.btn{
+	text-align: right;
+	color: white;
+	background-color:cornflowerblue;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	float: right;
+	text-decoration: none;
+	border-style: dotted;
+	border-color: #FFF;
+	
+}
+.animation1{
+	position: relative;
+	width: 300px;
+	float: left;
+}
+#contents1 .animation1 .caption{
+	position: absolute;
+	padding: 20px;
+	height: 300px;
+	width: 260px;
+	background: #e63c35;
+	/* 移動をスムーズにする/*/
+	-webkit-transition: all 0.3s;
+	-o-transition:all 0.3s;
+		transition:all 0.3s;
+	/* スムーズにする */
+	opacity: 0;
+	-webkit-transform: translate(0px, -300px);
+		-ms-transform: translate(0px, -300px);
+		-o-transform: translate(0px, -300px);
+		transform: translate(0px, -300px);
+}
+#contents1 .animation1 .caption h2{
+	color: white;
+	font-size: 13px;
+}
+#contents1 .animation1 .caption h3{
+	color: white;
+	font-size: 15px;
+}
+#contents1 .animation1:hover .caption{
+	/* 右下に移動させる*/
+		-webkit-transform: translate(0px, 0px);
+		-ms-transform: translate(0px, 0px);
+		-o-transform: translate(0px, 0px);
+		transform: translate(0px, 0px);
+	/*透明だったものを表示させる*/
+	opacity: 1;
+	
+}
+.animation2{
+	position: relative;
+	width: 300px;
+	float: left;
+	-webkit-perspective: 500;
+	-moz-perspective: 500;
+	-ms-perspective: 500;
+	perspective: 500;
+	
+	-webkit-perspective-origin: left;
+	-moz-perspective-origin: left;
+	-ms-perspective-origin: left;
+	perspective-origin: left;
+}
+
+#contents2 .animation2 .caption{
+	position: absolute;
+	padding: 20px;
+	background: #e63c35;
+	height: 260px;
+	width: 100px;
+	opacity: 0;
+	-webkit-transform: rotateY(-90deg);
+	-ms-transform: rotateY(-90deg);
+	-o-transform: rotateY(-90deg);
+	transform: rotateY(-90deg);
+	-webkit-transition: transform 0.4s, opacity 0.1s 0.3s;
+	-o-transition: transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+#contents2 .animation2 .caption h2{
+	
+ color: white;
+ font-size: 13px;
+}
+#contents2 .animation2 .caption h3{
+	
+ color: white;
+ font-size: 15px;
+}
+#contents2 .animation2:hover .caption{
+	opacity: 1;
+	-webkit-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transition: transform 0.4s, opacity 0.1s;
+	-o-transition: transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+#contents2 .animation2:hover img{
+	-webkit-transform: translateX(25%);
+	-ms-transform: translateX(25%);
+	-o-transform: translateX(25%);
+	transform: translateX(25%);
+}
+#contents2 .animation2 img{
+	-webkit-transition: transform 0.4s;
+	-o-transition: transform 0.4s;
+	transition: transform 0.4s;
+}
+#main a.fbbutton {
+	font-size: 16px;
+	color: #3b5998;
+	text-decoration: none;
+	letter-spacing: 3px;
+	padding: 10px 30px;
+	margin-left: 10px;
+	position: relative;
+}
+.fbbutton .edge{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: none repeat scroll 0 0 #3b5998;
+}
+.fbbutton .edge1{
+	width: 1px;
+}
+.fbbutton .edge2{
+	height: 1px;
+}
+.fbbutton .edge3{
+	width: 1px;
+	left: auto;
+	right: 0;
+}
+.fbbutton .edge4{
+	height: 1px;
+	top:auto;
+	bottom: 0;
+}
+
+
+	
+#contents1 .animation1 .caption{
+	position: absolute;
+	padding: 20px;
+	height: 300px;
+	width: 260px;
+	background: #e63c35;
+	/* 移動をスムーズにする/*/
+	-webkit-transition: all 0.3s;
+	-o-transition:all 0.3s;
+		transition:all 0.3s;
+	/* スムーズにする */
+	opacity: 0;
+}
+
+#contents1 .animation1 .caption h2{
+	color: white;
+	font-size: 13px;
+}
+#contents1 .animation1 .caption h3{
+	color: white;
+	font-size: 15px;
+}
+#contents1 .animation1:hover .caption{
+	/* 右下に移動させる*/
+		-webkit-transform: rotate(720deg);
+		-ms-transform: rotate(720deg);
+		-o-transform: rotate(720deg);
+		transform: rotate(720deg);
+	/*透明だったものを表示させる*/
+	opacity: 1;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
